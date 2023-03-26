@@ -1,0 +1,19 @@
+.react-tabs__tab--selected {
+    color: #0069ff !important;
+    border: none !important;
+    border-bottom: 5px solid !important;
+    padding: 8px 10px 5px 8px !important;
+}
+
+.react-tabs__tab:focus:after {
+    background-color: transparent !important;
+}
+
+.txt-dp {
+    color: #545582;
+}
+
+.integ-fld-wrp {
+    min-width: 800px;
+    max-width: 800px;
+}

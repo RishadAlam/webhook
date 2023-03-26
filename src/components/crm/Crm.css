@@ -1,0 +1,47 @@
+.btcd-s-wrp {
+    position: relative;
+    /* padding: 30px; */
+    /* overflow: auto; */
+    width: 1280px;
+}
+
+.btcd-btn-o-gray {
+    background: transparent;
+    color: #4b4b4b !important;
+    border: 1px solid #9c9c9c;
+    transition: background .2s !important;
+}
+
+.btcd-paper-inp {
+    color: #13233c;
+    box-shadow: none !important;
+    height: auto;
+    width: 100%;
+    font-family: inherit;
+    line-height: 1.2 !important;
+    font-size: 15px !important;
+    padding: 10px !important;
+    outline: none !important;
+    border-radius: 8px !important;
+    min-height: 15px !important;
+    border: 1px solid #e2e2e2 !important;
+    transition: box-shadow .3s !important;
+    background-color: transparent;
+}
+
+.icn-btn {
+    background: transparent;
+    color: #031b4e;
+    position: relative;
+    cursor: pointer;
+    font-size: 20px;
+    border: 0;
+    width: 32px;
+    height: 32px;
+    min-width: 32px;
+    min-height: 32px;
+    border-radius: 50%;
+    line-height: 1px;
+    outline: none;
+    padding: 0;
+}

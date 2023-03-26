@@ -1,0 +1,103 @@
+.trigger-webhook-width {
+    width: 700px;
+}
+
+.field-key-cpy {
+    margin: 6px auto 10px;
+}
+
+.field-key-cpy label {
+    display: flex;
+    word-break: break-all;
+}
+
+.field-key-cpy input.readonly {
+    background-color: #eee;
+}
+
+.field-key-cpy input {
+    background: #fff;
+    height: 17px;
+    outline: none;
+    width: 82%;
+    padding: 10px;
+    border: 1px solid #e4e4e4;
+    border-radius: 8px 0 0 8px;
+    margin: 0;
+    color: #222;
+}
+
+.field-key-cpy button {
+    color: #031b4e;
+    background-color: #eee;
+    position: relative;
+    cursor: pointer;
+    height: 39px;
+    padding: 11px;
+    border: 1px solid #e4e4e4;
+    border-left: none;
+    border-radius: 0 8px 8px 0;
+}
+
+.field-key-cpy button:hover {
+    background: #f0f5ff;
+    color: #0069ff;
+    border-color: transparent;
+}
+
+.tooltip:hover:after {
+    left: var(--tt-left);
+    border-radius: 7px;
+    -webkit-transform-origin: 0;
+    transform-origin: 0;
+    opacity: 1;
+    -webkit-transform: scale(1) translate(-50%);
+    transform: scale(1) translate(-50%);
+    transition: border-radius .5s cubic-bezier(0, 0, 0, 1), -webkit-transform .4s;
+    transition: transform .4s, border-radius .5s cubic-bezier(0, 0, 0, 1);
+    transition: transform .4s, border-radius .5s cubic-bezier(0, 0, 0, 1), -webkit-transform .4s;
+}
+
+.tooltip:after {
+    display: block;
+    background: #031b4e;
+    color: #fff;
+    position: absolute;
+    top: 110%;
+    left: var(--tt-left);
+    font-family: "Montserrat", sans-serif;
+    line-height: 1;
+    white-space: pre-wrap;
+    font-size: 13px;
+    font-weight: 600;
+    content: var(--tooltip-txt);
+    border-radius: 50%;
+    padding: 7px 10px;
+    width: var(--tt-width);
+    -webkit-transform-origin: 0;
+    transform-origin: 0;
+    -webkit-transform: scale(.5) translate(-50%);
+    transform: scale(.5) translate(-50%);
+    white-space: var(--tt-wrap);
+    z-index: 999;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity .3s, border-radius .5s cubic-bezier(0, 0, 0, 1), -webkit-transform .1s;
+    transition: transform .1s, opacity .3s, border-radius .5s cubic-bezier(0, 0, 0, 1);
+    transition: transform .1s, opacity .3s, border-radius .5s cubic-bezier(0, 0, 0, 1), -webkit-transform .1s;
+}
+
+.note {
+    color: #666;
+    padding: 15px;
+    border: 2px dotted #bebebe;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    min-width: 300px;
+    max-width: 400px;
+}
+
+.note .note-text {
+    color: #888;
+}

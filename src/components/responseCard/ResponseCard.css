@@ -1,0 +1,34 @@
+.header {
+    background-color: #eee;
+    padding: 10px 20px;
+    border-radius: 10px 10px 0 0;
+}
+
+.card-body {
+    height: 400px;
+    overflow-y: auto;
+    border: 1px solid #eee;
+    border-radius: 0 0 10px 10px;
+
+}
+
+.card-body .card-data,
+.card-body .card-data-dropdown {
+    padding: 20px;
+}
+
+.card-body .card-data-dropdown select {
+    background: #fff;
+    height: 39px;
+    outline: none;
+    width: 82%;
+    padding: 10px;
+    border: 1px solid #e4e4e4;
+    border-radius: 10px;
+    margin: 0;
+    color: #222;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
